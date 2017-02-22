@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(int a, int b) {
-  int x,y,d;
+int main(long long int a, long long int b) {
+  long long int x,y,d;
 
   asm(
     "movq $1, %%r10\n"
